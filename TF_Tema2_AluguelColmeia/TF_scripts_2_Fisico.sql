@@ -16,7 +16,7 @@ CREATE DATABASE IF NOT EXISTS tf2_scripts_2;
 CREATE TABLE APICULTOR(
 	idApicultor INT NOT NULL AUTO_INCREMENT,
     nomeApicultor VARCHAR(120) NOT NULL,
-    cpfApicultor BIGINT NOT NULL,
+    cpfApicultor BIGINT (11) NOT NULL,
     telefoneApicultor VARCHAR(20) NOT NULL,
     qtdTotalApiario INT NOT NULL,
     nomeSindicato VARCHAR(100),
